@@ -1,0 +1,404 @@
+body{
+    overflow-x: hidden;
+    z-index: -1;
+}
+
+*{
+    margin-left: 0;
+    /* margin-top: -20px; */
+}
+.grey{
+    width: 100%;
+    /* margin-top:-200px; */
+    height: 200%;
+    /* min-height: 200%; */
+    z-index: 10;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    margin-top: -10px;
+    text-align: center;
+   /* padding-top: -20px; */
+    top: -150%;
+    opacity: 0;
+    left:50% ;
+    transform: translate(-50%,-50%) scale(1.25);
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+.grey.active{
+    opacity: 1;
+    top: 100%;
+    transform: translate(-50%,-50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+}
+.grey .cen{
+    position: relative;
+    top: 25%;
+}
+.grey  .cen #serrr{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.1) ;
+    width: 500px;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+
+}
+.grey  .cen #serrr:focus{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.1) ;
+    width: 500px;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
+.grey .cen #xx
+{
+    position: relative;
+    bottom: 360px;
+    left: 1000px;
+    background-color: rgba(0,0,0,0.1) ;
+    border: none;
+    outline: none;
+    color: white;
+    /* line-height: 5; */
+    font-size: 20px;
+    cursor: pointer;
+}
+.grey .cen #sss
+{
+    width: 20px;
+    /* margin-right: 10px; */
+    position: relative;
+    height: 20px;
+    background:none ;
+    border: none;
+    left: 100px;
+    top: 15px;
+
+}
+.grey .cen .s img
+{
+    width: 60px;
+    /* margin-right: 10px; */
+    position: relative;
+    height: 60px;
+    background-color: rgba(0,0,0,0.1) ;
+    /* color: white; */
+}
+
+.field{
+    display: flex;
+    justify-content:space-evenly;
+    height: 700px;
+
+
+}
+.field .field1 , .field .field2{
+    margin: 20px;
+    position: relative;
+    top: 10%;
+}
+.fixed{
+    position: fixed;
+    top: 89%;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fixed .fffixed{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fixed .fffixed button{
+    height: 50%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    position: relative;
+    left: 190%;
+    top: 10px;
+}
+.fixed .fffixed p{
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 180% ;
+}
+.fixed .fffixed h2{
+    position: relative;
+    left:60%;
+}
+.fixed .fffixed img{
+    position: relative;
+    left: 50%;
+    margin: 5px;
+}
+.Product1{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.Product1 .all{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+}
+.Product1 .all #photoOne{
+    margin:50px;
+    justify-content: space-between;
+    background-image: url(./product-01-a.jpg);
+    /* background-image: ; */
+    background-size: cover;
+    height: 700px;
+
+}
+.Product1 .all #photoOOne{
+    margin:50px;
+    justify-content: space-between;
+    background-image: url(./product-09-a.jpg);
+    /* background-image: ; */
+    background-size: cover;
+    height: 700px;
+
+}
+.Product1 .all #photoOne {
+    width:650px;
+    height: 800px;
+}
+.Product1 .all #photoOOne {
+    width:650px;
+    height: 800px;
+}
+.Product1 .all .diiisOne{
+    width: 500px;
+    /* justify-content: space-between; */
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.Product1 .all .diiisOne .dOne h3{
+    /* display: flex; */
+    width: 200px;
+    /* display: ; */
+}
+.Product1 .all .diiisOne .dOne #f{
+  color: gray;
+  position: relative;
+  left: 138px;
+  bottom: 38px;
+  font-size: 12px;
+  margin-bottom: -45px;
+}
+.Product1 .all .diiisOne .dOne p{
+    color: gray;
+}
+.Product1 .all .diiisOne .dTwo h6{
+ color: gray;
+ font: 700;
+ font-size: 15px;
+ margin-top: -1px;
+
+ }
+ .Product1 .all .diiisOne .dTwo .boot button{
+   /* border: none; */
+    background-color: white;
+    /* outline: gray; */
+    width:  100px;
+    padding: 10px;
+     color: gray;
+ }
+ .Product1 .all .diiisOne .dTwo .boot button:focus{
+   /* border:none; */
+    box-shadow: none;
+    border: 2px black;
+    border-color:black ;
+   
+ } 
+ .ooo .plus{
+    display: flex;
+  
+    /* justify-content: space-between; */
+ }
+ .ooo .plus button{
+  /* border: none; */
+  background-color: white;
+  /* outline: gray; */
+  width:  40px;
+  padding: 5px;
+  color: gray;
+  margin: 9px;
+ }
+ .ooo .plus p{
+    outline: 1px;
+ }
+ .ooo {
+    display: flex;
+    /* justify-content: space-between; */
+ }
+ .ooo #ADDD{
+    padding: 5px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100px;
+ }
+ .ooo #ADDD:hover{
+    color: gray;
+ }
+ .Product1 .all .dTwo .s{
+    display: flex;
+
+ }
+ .Product1 .all .dTwo .s p{
+    margin: 15px;
+ }
+ .Product1 .all .dTwo .s p a{
+    color: black;
+    text-decoration: none;
+
+ }
+ #mini,#mi
+ {
+    background-image: url("./icons8-plus-math-30.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    /* display: flex; */
+     position: relative;
+    left: 450px;
+    bottom: 50px;
+ }
+ .Product1 .all .dTwo .desciption #overflowDes{
+    display: none;
+    /* margin-top:-10px ; */
+ }
+ #reviewDesc{
+    display: none;
+ }
+ #mi{
+    background-image: url(/icons8-plus-math-30.png);
+ }
+
+.control{
+    display: flex;
+    flex-direction: column;
+}
+.cololo{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 650px;
+    position: relative;
+    left: 50px;
+}
+.cololo .coloo1{
+    background-image: url("./product-001-b.jpg");
+    width: 310px;
+    height: 400px;
+    background-size: cover;
+    margin: 5px;
+    
+}
+.cololo .coloo2{
+    background-image: url("./product-01-c.jpg");
+    width: 310px;
+    height: 400px;
+    background-size: cover;
+    margin: 5px;
+
+}
+.cololo .coloo3{
+    background-image: url("./product-01-d.jpg");
+    width: 310px;
+    height: 400px;
+    background-size: cover;
+    margin: 5px;
+
+}
+
+#cloose{
+    display: none;
+}
+#cartTwodiv{
+    height: 100%;
+    margin: 0px;
+}
+.cartTwo.active{
+  right: 0px;
+}
+
+.cartTwo{
+    margin: -10px;
+    width: 450px;
+    height: 500vh;
+    position: fixed;
+    background-color:rgb(255, 243, 240) ;
+    z-index: 10;
+    
+    right: -100000px;
+    
+
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+ 
+}
+.cartTwo:hover{
+    background-color: white;
+}
+.cartTwo #cartTwodiv p{
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+}
+.cartTwo #cartTwodiv a{
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+}
+.cartTwo #cartTwodiv hr{
+    color: gray;
+    width: 400px;
+    position: relative;
+    left: 24px;
+    bottom: 40px;
+}
+.cartTwo #cartTwodiv .continue{
+    margin: 10px;
+    background-color: black;
+    padding: 12px;
+    font: 15px;
+    width: 80%;
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 470px;
+    border: none;
+}
+.cartTwo #cartTwodiv #noPro{
+    position: relative;
+    left: 150px;
+    top: 200px;
+}

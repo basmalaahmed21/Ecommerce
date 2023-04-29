@@ -1,0 +1,805 @@
+.second .one , .second .two , .second .three , .second .four {
+    width: 25%;
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+.second .row .one .pppp{
+  display: none;
+  background-color: black;
+  opacity: 0.8; 
+  z-index: 1;
+}
+.second .row .one .ho  {
+    background-image: url(./product-09-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    margin: 20px;
+ 
+}
+
+.second .pop .one .ho .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .one .ho .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .one .ho .carttttt:hover {
+opacity: 1;
+/* display: block; */
+}
+.second .pop .one .ho .quickview:hover {
+    opacity: 1;
+    /* display: block; */
+}
+
+.second .pop .one .ho img{
+    width: 20px;
+}
+.quickview, .carttttt,.pppp{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .one .ho:hover{
+    background-image:url(./product-01-c-400x488.jpg);
+    /* z-index: ; */
+}
+.second .row .one .ho:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .one .ho:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+
+
+/*              two     */
+
+
+
+
+.second .one, .two .two, .second .three, .second .four{
+    /* width: 25%; */
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+}
+.second .row .two .ho  {
+    background-image: url(./product-06-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    /* margin: 20px; */
+
+ 
+}
+
+.second .pop .two .ho .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+}
+.second .pop .two .ho .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .two .ho .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .two .ho .carttttt:hover{
+opacity: 1;
+}
+.second .pop .two .ho .quickview:hover{
+    opacity: 1;
+    }
+
+.second .pop .two .ho img{
+    width: 20px;
+}
+.quickview, .carttttt{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .two .ho:hover{
+    background-image:url(./product-01-d-400x488.jpg);
+    /* z-index: ; */
+}
+.second .row .two .ho:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .two .ho:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+
+
+/*          three                  */
+.second .one, .second .two, .second .three, .second .four{
+    /* width: 25%; */
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+}
+.second .row .three .ho  {
+    background-image: url(./product-10-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    margin: 70px;
+ 
+}
+
+.second .pop .three .ho .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+}
+.second .pop .three .ho .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .three .ho .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .three .ho .carttttt:hover{
+opacity: 1;
+}
+.second .pop .three .ho .quickview:hover{
+    opacity: 1;
+    }
+
+.second .pop .three .ho img{
+    width: 20px;
+}
+.quickview, .carttttt{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .three .ho:hover{
+    background-image:url(./product-01-d-400x488\ \(1\).jpg);
+    /* z-index: ; */
+}
+.second .row .three .ho:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .three .ho:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+/*     four   */
+
+.second .one, .second .two, .second .three, .second .four{
+    /* width: 25%; */
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+    /* margin:5px; */
+}
+.second .row .four .ho  {
+    background-image: url(./product-08-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    margin: 90px;
+ 
+}
+
+.second .pop .four .ho .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+}
+.second .pop .four .ho .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .four .ho .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .four .ho .carttttt:hover{
+opacity: 1;
+}
+.second .pop .four .ho .quickview:hover{
+    opacity: 1;
+    }
+
+.second .pop .four .ho img{
+    width: 20px;
+}
+.quickview, .carttttt{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .four .ho:hover{
+    background-image:url(./product-001-b-400x488.jpg);
+    /* z-index: ; */
+}
+.second .row .four .ho:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .four .ho:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+
+
+.second .pop .row{
+    position: relative;
+    right: 50px;
+}
+.second .row .two .des{
+    position: relative;
+    left: 45px;
+    bottom: 35px;
+}
+.second .row .three .des{
+    position: relative;
+    left: 75px;
+    bottom: 55px;
+}
+.second .row .four .des{
+    position: relative;
+    left: 95px;
+    bottom: 75px;
+}
+/*
+ neeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeew**/
+ .second .one , .second .two , .second .three , .second .four {
+    width: 25%;
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+.second .row .one .hoo  {
+    background-image: url(./product-01-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    margin: 20px;
+ 
+}
+
+.second .pop .one .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+}
+.second .pop .one .hoo .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .one .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .one .hoo .carttttt:hover{
+opacity: 1;
+}
+.second .pop .one .hoo .quickview:hover{
+    opacity: 1;
+    }
+
+.second .pop .one .hoo img{
+    width: 20px;
+}
+.quickview, .carttttt{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .one .hoo:hover{
+    background-image:url(./product-001-b-400x488.jpg);
+    /* z-index: ; */
+}
+.second .row .one .hoo:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .one .hoo:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+
+
+/*              two     */
+
+
+
+
+.second .one, .second .two, .second .three, .second .four{
+    /* width: 25%; */
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+}
+.second .row .two .hoo  {
+    background-image: url(./product-05-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    margin: 45px;
+
+ 
+}
+
+.second .pop .two .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+}
+.second .pop .two .hoo .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .two .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .two .hoo .carttttt:hover{
+opacity: 1;
+}
+.second .pop .two .hoo .quickview:hover{
+    opacity: 1;
+    }
+
+.second .pop .two .hoo img{
+    width: 20px;
+}
+.quickview, .carttttt{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .two .hoo:hover{
+    background-image:url(./product-001-b-400x488.jpg);
+    /* z-index: ; */
+}
+.second .row .two .hoo:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .two .hoo:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+
+
+/*          three                  */
+.second .one, .second .two, .second .three, .second .four{
+    /* width: 25%; */
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+}
+.second .row .three .hoo  {
+    background-image: url(./product-03-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    margin: 70px;
+ 
+}
+
+.second .pop .three .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+}
+.second .pop .three .hoo .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .three .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .three .hoo .carttttt:hover{
+opacity: 1;
+}
+.second .pop .three .hoo .quickview:hover{
+    opacity: 1;
+    }
+
+.second .pop .three .hoo img{
+    width: 20px;
+}
+.quickview, .carttttt{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .three .hoo:hover{
+    background-image:url(./product-01-d-400x488\ \(1\).jpg);
+    /* z-index: ; */
+}
+.second .row .three .hoo:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .three .hoo:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+/*     four   */
+
+.second .one, .second .two, .second .three, .second .four{
+    /* width: 25%; */
+    /* min-width: 250px; */
+    /* padding: 10px 12px; */
+    /* margin: 15px 0; */
+    justify-content: center;
+    justify-items: center;
+    /* border: 1px solid black; */
+    /* margin:5px; */
+}
+.second .row .four .hoo  {
+    background-image: url(./product-08-a-600x731.jpg);
+    background-size: cover;
+    height: 325px;
+    width: 300px;
+    position: relative;
+    /* bottom: 80px; */
+    z-index: 1;
+    margin: 90px;
+ 
+}
+
+.second .pop .four .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+}
+.second .pop .four .hoo .carttttt{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    /* margin: 10px; */
+    opacity: 0.6;
+    
+}
+.second .pop .four .hoo .quickview{
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 85%;
+    top: 20px;
+    /* margin: 10px; */
+    opacity: 0.6;
+}
+.second .pop .four .hoo .carttttt:hover{
+opacity: 1;
+}
+.second .pop .four .hoo .quickview:hover{
+    opacity: 1;
+    }
+
+.second .pop .four .hoo img{
+    width: 20px;
+}
+.quickview, .carttttt{
+    display: none   ;
+    z-index: 2; 
+}
+.second .row .four .hoo:hover{
+    background-image:url(./product-001-b-400x488.jpg);
+    /* z-index: ; */
+}
+.second .row .four .hoo:hover .quickview {
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+.second .row .four .hoo:hover .carttttt{
+    /* content:url(./product-001-b-400x488.jpg) */
+   
+    display: block; 
+}
+
+
+.second .pop .row{
+    position: relative;
+    right: 50px;
+}
+.second .row .two .des{
+    position: relative;
+    left: 45px;
+    bottom: 35px;
+}
+.second .row .three .des{
+    position: relative;
+    left: 75px;
+    bottom: 55px;
+}
+.second .row .four .des{
+    position: relative;
+    left: 95px;
+    bottom: 75px;
+}
+.ssecond .conttt h5{
+    color: gray;
+    width: 710px;
+    position: relative;
+    left: 410px;
+    bottom: 115px;
+    font-weight: 400;
+} 
+
+
+.ttthird .back{
+    background-image: url(./bg-02.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 40px;
+    height: 630px;
+    /* background-color: black; */
+    
+    
+}
+.ttthird .back .mis{
+    color: white;
+    width: 450px;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+.ttthird .back .mis h1{
+    position: relative;
+    bottom: 30px;
+}
+.ttthird .back .mis h3{
+    position: relative;
+    bottom: 70px;
+}
+.ttthird .back .mis p{
+    font-size: 15px;
+  
+}
+.ttthird .back .di {
+    color: white;
+    width: 540px;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: 270px;
+    top: 150px;
+}
+.ttthird .back {
+    display: flex;
+
+}
+.fffourth{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10%; 
+    /* margin: 50px; */
+}
+.fffourth .vel{
+    background-color:  rgb(255, 243, 240);   
+    display: flex;
+    width: 1150px;
+     height: 400px;
+
+
+}
+.fffourth .talk{
+    width: 40%;
+    position: relative;
+    /* left: 50px; */
+    margin: 50px;
+    bottom: 50px;
+}
+.fffourth .vel .phooo{
+    position: relative;
+    left: 70px;
+}
+.fffourth .vel img{
+    height: 100%;
+    width: 170%;
+}
+.fffourth .vel .talk h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+.fffourth .vel .talk h3{
+    position: relative;
+    bottom: 10px;
+}
+.fffourth .vel .talk p{
+    color: gray;
+}
+.fffourth .how{
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+.fffourth .how h1
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+.fffourth .how h2{
+  position: relative;
+  bottom: 50px;
+  
+}
+.fffourth .how p{
+    color: gray;
+    width: 590px;
+    position: relative;
+    left: 480px;
+    bottom: 50px;
+}
